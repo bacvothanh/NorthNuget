@@ -2,6 +2,7 @@
 Popular library integration
 
 1. Google Recaptcha:
+
  ** How to use:
  
 - Register as a service in startup.cs:
