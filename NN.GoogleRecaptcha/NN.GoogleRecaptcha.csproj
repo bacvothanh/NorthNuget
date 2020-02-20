@@ -2,6 +2,19 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
+    <Authors>bacvothanh</Authors>
+    <Company>bacvothanh</Company>
+    <Description>Google Recaptcha integration</Description>
+    <PackageProjectUrl>https://github.com/bacvothanh/NorthNuget</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/bacvothanh/NorthNuget</RepositoryUrl>
+    <RepositoryType>Github</RepositoryType>
+    <PackageTags>Google Recaptcha</PackageTags>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <PlatformTarget>x86</PlatformTarget>
   </PropertyGroup>
 
   <ItemGroup>
