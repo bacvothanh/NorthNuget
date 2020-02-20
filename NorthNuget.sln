@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NN.Standard.GoogleRecaptcha
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NN.Standard.Facebook", "NN.Standard.Facebook\NN.Standard.Facebook.csproj", "{DFD6310B-379D-4143-BFA4-1CEF3CDF5CD1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NN.Standard.Hubspot", "NN.Standard.Hubspot\NN.Standard.Hubspot.csproj", "{C51A238D-6A2C-45B7-9024-AD2618B77CFF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{DFD6310B-379D-4143-BFA4-1CEF3CDF5CD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DFD6310B-379D-4143-BFA4-1CEF3CDF5CD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DFD6310B-379D-4143-BFA4-1CEF3CDF5CD1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C51A238D-6A2C-45B7-9024-AD2618B77CFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C51A238D-6A2C-45B7-9024-AD2618B77CFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C51A238D-6A2C-45B7-9024-AD2618B77CFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C51A238D-6A2C-45B7-9024-AD2618B77CFF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
