@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>bacvothanh</Authors>
+    <Company>bacvothanh</Company>
+    <Description>Integration for google recaptcha</Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <RepositoryUrl>https://github.com/bacvothanh/NorthNuget</RepositoryUrl>
+    <RepositoryType>Github</RepositoryType>
+    <PackageProjectUrl>https://github.com/bacvothanh/NorthNuget</PackageProjectUrl>
+    <PackageTags>Google Recaptcha</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+    <PackageReference Include="RestEase" Version="1.4.10" />
+  </ItemGroup>
+
+</Project>
