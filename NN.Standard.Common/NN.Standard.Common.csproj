@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>bacvothanh</Authors>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <Description>Common lib for string, list, enum, datetime,...</Description>
+    <PackageProjectUrl>https://github.com/bacvothanh/NorthNuget</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/bacvothanh/NorthNuget</RepositoryUrl>
+    <RepositoryType>Github</RepositoryType>
+    <PackageTags>Common NN string extension list</PackageTags>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+</Project>
