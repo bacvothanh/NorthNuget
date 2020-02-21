@@ -5,11 +5,13 @@ VisualStudioVersion = 16.0.29613.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NN.GoogleRecaptcha", "NN.GoogleRecaptcha\NN.GoogleRecaptcha.csproj", "{AEDE9079-AEBA-435A-9F12-2D2429EC0F0F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NN.Standard.GoogleRecaptcha", "NN.Standard.GoogleRecaptcha\NN.Standard.GoogleRecaptcha.csproj", "{03CF4F4C-DB37-4460-AA2F-B1133ECDB543}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NN.Standard.GoogleRecaptcha", "NN.Standard.GoogleRecaptcha\NN.Standard.GoogleRecaptcha.csproj", "{03CF4F4C-DB37-4460-AA2F-B1133ECDB543}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NN.Standard.Facebook", "NN.Standard.Facebook\NN.Standard.Facebook.csproj", "{DFD6310B-379D-4143-BFA4-1CEF3CDF5CD1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NN.Standard.Facebook", "NN.Standard.Facebook\NN.Standard.Facebook.csproj", "{DFD6310B-379D-4143-BFA4-1CEF3CDF5CD1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NN.Standard.Hubspot", "NN.Standard.Hubspot\NN.Standard.Hubspot.csproj", "{C51A238D-6A2C-45B7-9024-AD2618B77CFF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NN.Standard.Hubspot", "NN.Standard.Hubspot\NN.Standard.Hubspot.csproj", "{C51A238D-6A2C-45B7-9024-AD2618B77CFF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NN.Standard.Image", "NN.Standard.Image\NN.Standard.Image.csproj", "{33674BE9-09A9-44BB-A7A9-D43AC854C128}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{C51A238D-6A2C-45B7-9024-AD2618B77CFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C51A238D-6A2C-45B7-9024-AD2618B77CFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C51A238D-6A2C-45B7-9024-AD2618B77CFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33674BE9-09A9-44BB-A7A9-D43AC854C128}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33674BE9-09A9-44BB-A7A9-D43AC854C128}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33674BE9-09A9-44BB-A7A9-D43AC854C128}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33674BE9-09A9-44BB-A7A9-D43AC854C128}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
