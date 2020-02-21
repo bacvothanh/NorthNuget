@@ -9,6 +9,7 @@
     <RepositoryType>Github</RepositoryType>
     <PackageTags>NN Facebook Integration</PackageTags>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Description>Facebook integration for get access token, profile,...</Description>
   </PropertyGroup>
 
   <ItemGroup>

@@ -13,6 +13,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NN.Standard.Hubspot", "NN.S
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NN.Standard.Image", "NN.Standard.Image\NN.Standard.Image.csproj", "{33674BE9-09A9-44BB-A7A9-D43AC854C128}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NN.Standard.Encrypt", "NN.Standard.Encrypt\NN.Standard.Encrypt.csproj", "{C6096D34-35C7-4356-BF74-3E97FCAE7BA1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{33674BE9-09A9-44BB-A7A9-D43AC854C128}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{33674BE9-09A9-44BB-A7A9-D43AC854C128}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{33674BE9-09A9-44BB-A7A9-D43AC854C128}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6096D34-35C7-4356-BF74-3E97FCAE7BA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6096D34-35C7-4356-BF74-3E97FCAE7BA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6096D34-35C7-4356-BF74-3E97FCAE7BA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6096D34-35C7-4356-BF74-3E97FCAE7BA1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
