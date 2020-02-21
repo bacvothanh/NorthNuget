@@ -2,6 +2,14 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>bacvothanh</Authors>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <Description>Hubspot integration for create company, contact, deal, file...</Description>
+    <PackageProjectUrl>https://github.com/bacvothanh/NorthNuget/tree/master/NN.Standard.Hubspot</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/bacvothanh/NorthNuget/tree/master/NN.Standard.Hubspot</RepositoryUrl>
+    <RepositoryType>Github</RepositoryType>
+    <PackageTags>Hubspot, integration</PackageTags>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
 
   <ItemGroup>
