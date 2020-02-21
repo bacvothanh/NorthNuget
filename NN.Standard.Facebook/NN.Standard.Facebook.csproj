@@ -2,6 +2,13 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>bacvothanh</Authors>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/bacvothanh/NorthNuget/tree/master/NN.Standard.Facebook</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/bacvothanh/NorthNuget/tree/master/NN.Standard.Facebook</RepositoryUrl>
+    <RepositoryType>Github</RepositoryType>
+    <PackageTags>NN Facebook Integration</PackageTags>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
 
   <ItemGroup>
