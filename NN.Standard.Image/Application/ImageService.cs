@@ -25,7 +25,7 @@ namespace NN.Standard.Image.Application
             }
         }
 
-        public Stream CompressImage(Bitmap image, int quality)
+        public System.Drawing.Image CompressImage(Bitmap image, int quality)
         {
             var encoder = GetEncoder(ImageFormat.Jpeg);
             var qualityEncoder = Encoder.Quality;
@@ -33,9 +33,10 @@ namespace NN.Standard.Image.Application
             var encoderParameter = new EncoderParameter(qualityEncoder, quality);
             encoderParameters.Param[0] = encoderParameter;
             var memory = new MemoryStream();
+            memory.Seek(0, SeekOrigin.Begin);
             image.Save(memory, encoder, encoderParameters);
 
-            return memory;
+            return System.Drawing.Image.FromStream(memory);
         }
 
         public Bitmap ResizeImage(Bitmap image, int width, int height)

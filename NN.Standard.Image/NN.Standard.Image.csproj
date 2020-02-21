@@ -8,7 +8,7 @@
     <RepositoryUrl>https://github.com/bacvothanh/NorthNuget/tree/master/NN.Standard.Image</RepositoryUrl>
     <PackageTags>NN Image Compress</PackageTags>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Version>1.0.1</Version>
+    <Version>1.0.2</Version>
     <Description>Image helpers for compress, resize,...</Description>
   </PropertyGroup>
 
