@@ -1,6 +1,8 @@
 # NorthNuget
 Popular library integration
 
+** Public in Nuget: https://www.nuget.org/profiles/bacvothanh
+
 1. Google Recaptcha:
 Verify google recaptcha token.
  ** How to use:
