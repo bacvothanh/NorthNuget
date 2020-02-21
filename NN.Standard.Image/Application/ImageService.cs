@@ -25,7 +25,7 @@ namespace NN.Standard.Image.Application
             }
         }
 
-        public System.Drawing.Image CompressImage(Bitmap image, int quality)
+        public System.Drawing.Image CompressImage(System.Drawing.Image image, int quality)
         {
             var encoder = GetEncoder(ImageFormat.Jpeg);
             var qualityEncoder = Encoder.Quality;
@@ -39,7 +39,7 @@ namespace NN.Standard.Image.Application
             return System.Drawing.Image.FromStream(memory);
         }
 
-        public Bitmap ResizeImage(Bitmap image, int width, int height)
+        public System.Drawing.Image ResizeImage(System.Drawing.Image image, int width, int height)
         {
             var desRectangle = new Rectangle(0, 0, width, height);
             var resizedImage = new Bitmap(width, height);
