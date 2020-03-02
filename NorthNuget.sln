@@ -11,11 +11,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NN.Standard.Facebook", "NN.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NN.Standard.Hubspot", "NN.Standard.Hubspot\NN.Standard.Hubspot.csproj", "{C51A238D-6A2C-45B7-9024-AD2618B77CFF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NN.Standard.Image", "NN.Standard.Image\NN.Standard.Image.csproj", "{33674BE9-09A9-44BB-A7A9-D43AC854C128}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NN.Standard.Image", "NN.Standard.Image\NN.Standard.Image.csproj", "{33674BE9-09A9-44BB-A7A9-D43AC854C128}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NN.Standard.Encrypt", "NN.Standard.Encrypt\NN.Standard.Encrypt.csproj", "{C6096D34-35C7-4356-BF74-3E97FCAE7BA1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NN.Standard.Encrypt", "NN.Standard.Encrypt\NN.Standard.Encrypt.csproj", "{C6096D34-35C7-4356-BF74-3E97FCAE7BA1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NN.Standard.Common", "NN.Standard.Common\NN.Standard.Common.csproj", "{4BE68E55-E2DC-4B8A-B88A-03A96FADDC58}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NN.Standard.Common", "NN.Standard.Common\NN.Standard.Common.csproj", "{4BE68E55-E2DC-4B8A-B88A-03A96FADDC58}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NN.Standard.Aws.S3", "NN.Standard.Aws.S3\NN.Standard.Aws.S3.csproj", "{26CCC149-07EE-40F6-AFCD-0669840FF513}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{4BE68E55-E2DC-4B8A-B88A-03A96FADDC58}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4BE68E55-E2DC-4B8A-B88A-03A96FADDC58}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4BE68E55-E2DC-4B8A-B88A-03A96FADDC58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26CCC149-07EE-40F6-AFCD-0669840FF513}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26CCC149-07EE-40F6-AFCD-0669840FF513}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26CCC149-07EE-40F6-AFCD-0669840FF513}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26CCC149-07EE-40F6-AFCD-0669840FF513}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
